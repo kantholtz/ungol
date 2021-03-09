@@ -1,0 +1,5 @@
+h5py
+tqdm
+attrs
+numpy
+tabulate

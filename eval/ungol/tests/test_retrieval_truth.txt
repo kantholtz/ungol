@@ -1,0 +1,10 @@
+
+topic1 t doc1 1
+topic1 h doc3 0
+topic1 e doc2 0
+topic1 g doc4 0
+topic1 a doc5 1
+
+topic2 m doc1 0
+topic2 e doc2 1
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<input>
+	<q target_lang="DE" source_lang="DE" q_id="0001" q_group_id="4000">Wer ist Adolph Freiherr Knigge?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0002" q_group_id="4000">Wie heißt sein bekanntestes Buch?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0003" q_group_id="4000">In welcher Stadt ist er gestorben?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0004" q_group_id="4000">Wann ist er gestorben?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0005" q_group_id="4001">Was ist Bilbao?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0006" q_group_id="4001">Wie viele Einwohner hat die Stadt 1970 gehabt?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0007" q_group_id="4001">Wo liegt der Flughafen von Bilbao?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0008" q_group_id="4001">Wann wurde das Guggenheim-Museum in Bilbao eröffnet?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0009" q_group_id="4002">Wer war Wassily Kandinsky?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0010" q_group_id="4002">In welchem Jahr hat er "Das Jüngste Gericht" gemalt?</q>
+	<q target_lang="DE" source_lang="DE" q_id="0011" q_group_id="4002">Mit wem gründete er die Künstlergruppe "Der Blaue Reiter"?</q>
+</input>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<topics>
+
+<top> 
+<num> C301 </num> 
+<DE-title> Nestlé Marken </DE-title> 
+<DE-desc> Welche Marken werden von Nestlé rund um die Welt vertrieben? </DE-desc> 
+<DE-narr> Relevante Artikel berichten über die Namen von global vermarkteten Nestlé-Waren oder über Firmen, die zur Nestlé-Gruppe gehören. Im zweiten Falle muss das Dokument einen klaren Verweis auf die Muttergesellschaft machen. </DE-narr> 
+</top> 
+
+<top> 
+<num> C302 </num> 
+<DE-title> Verbraucherboykott </DE-title> 
+<DE-desc> Finde Dokumente, die die Wirkung von Verbraucherboykotts beschreiben oder diskutieren. </DE-desc> 
+<DE-narr> Relevante Dokumente berichten über Diskussionen oder Ansichten zur Wirksamkeit eines Verbraucherboykotts. Die moralischen Aspekte solcher Boykotts sind ebenfalls von Bedeutung. Nur Verbraucherboykotts sind relevant, politische Boykotts sollen ignoriert werden. </DE-narr> 
+</top> 
+
+<top> 
+<num> C303 </num> 
+<DE-title> Italienische Gemälde </DE-title> 
+<DE-desc> Finde Informationen über Orte, an denen italienische Gemälde ausgestellt oder der Öffentlichkeit gezeigt werden. </DE-desc> 
+<DE-narr> Relevante Dokumente berichten über Orte ständiger oder zeitweiliger Ausstellungen italienischer Gemälde überall in der Welt. Informationen darüber, wo einzelne Gemälde oder Zeichnungen italienischer Künstler öffentlich in Museen, Gemäldegalerien oder an ähnlichen Orten ausgestellt wurden, sind ebenfalls von Interesse. Die Informationen müssen ausreichen, um den genauen Ort zu identifizieren, d.h. der Name der Stadt oder des Landes sind nicht ausreichend. </DE-narr> 
+</top> 
+
+<top> 
+<num> C304 </num> 
+<DE-title> Weltkulturerbestätten </DE-title> 
+<DE-desc> Nenne die Namen und/oder die Lage von Orten, die als UNESCO-Weltkulturerbe von besonderer Schönheit oder Bedeutung benannt wurden. </DE-desc> 
+<DE-narr> Relevante Dokumente müssen den Namen oder die geografische Lage der Denkmäler, Städte oder Orte benennen, die offiziell von der UNESCO als Weltkulturerbe von besonderer Schönheit oder Bedeutung benannt wurden. Diskussionen über potenzielle oder Kandidatenstätten sind nicht relevant. Das Dokument muss klar erkennen lassen, dass der offizielle UNESCO-Status berührt ist. </DE-narr> 
+</top> 
+
+<top> 
+<num> C305 </num> 
+<DE-title> Ölpreise </DE-title> 
+<DE-desc> Wie hoch ist der gegenwärtige Ölpreis? </DE-desc> 
+<DE-narr> Nur Dokumente, die den aktuellen Ölpreis nennen, sind relevant, d.h. den Preis zum Zeitpunkt als das Dokument geschrieben wurde. Hinweise auf den Ölpreis in der Vergangenheit oder Vorhersagen über Preisänderungen in der Zukunft sind nicht relevant. </DE-narr> 
+</top> 
+
+<top> 
+<num> C306 </num> 
+<DE-title> ETA-Aktivitäten in Frankreich </DE-title> 
+<DE-desc> Finde Dokumente, die über Aktivitäten der baskischen Terrorgruppe ETA in Frankreich berichten. </DE-desc> 
+<DE-narr> Nur Dokumente, die die Aktivitäten der baskischen Terrorgruppe auf französischem Gebiet beschreiben sind relevant, egal ob bewaffnet, politisch, finanziell oder in anderer Form. ETA-Aktivitäten in Spanien sind nicht relevant. </DE-narr> 
+</top> 
+
+<top> 
+<num> C307 </num> 
+<DE-title> In Schottland spielende Filme </DE-title> 
+<DE-desc> Finde Informationen über Filme, deren Handlung in Schottland spielt. </DE-desc> 
+<DE-narr> Relevante Dokumente müssen Filme nennen, deren Handlung in Schottland spielt. Filme, die in Schottland aufgenommen wurden, deren Handlung aber an anderen Orten spielt, sind nicht relevant. Theaterstücke wie "Macbeth" sind nicht relevant, wohl aber ihre Filmversionen. Dokumentarfilme, die Szenen in Schottland enthalten, sind auch von Interesse. </DE-narr> 
+</top> 
+
+<top> 
+<num> C308 </num> 
+<DE-title> Sonnenfinsternis </DE-title> 
+<DE-desc> Finde Dokumente, die über eine vollständige oder teilweise Sonnenfinsternis berichten. </DE-desc> 
+<DE-narr> Jegliches Dokument, das irgendeine Information über Sonnenfinsternisse liefert, ist relevant. Dokumente über Mondfinsternisse oder Planetenbewegungen sind nicht relevant. </DE-narr> 
+</top> 
+
+<top> 
+<num> C309 </num> 
+<DE-title> "Harte" Drogen </DE-title> 
+<DE-desc> Was sind die Gesundheitsrisiken illegaler "harter" Drogen, wie Heroin und Kokain im Gegensatz zu "weichen" Drogen? </DE-desc> 
+<DE-narr> Relevante Dokumente müssen Informationen über die medizinischen Risiken im Zusammenhang mit dem illegalen Gebrauch und der Abhängigkeit von harten Drogen liefern. Informationen über Probleme, die aus dem Konsum "weicher" Drogen resultieren, sind nicht relevant. </DE-narr> 
+</top> 
+
+<top> 
+<num> C310 </num> 
+<DE-title> Behandlung von Industrieabfall </DE-title> 
+<DE-desc> Finde Dokumente, die Methoden beschreiben, die angewandt werden, um Industrieabfälle zu behandeln oder zu entsorgen. </DE-desc> 
+<DE-narr> Die Dokumente müssen nicht nur die verschiedenen Arten der Behandlung von Industrieabfällen benennen (z.B. Müllverbrennung, Recycling von Abfallprodukten), sondern auch das Land, die Stadt oder Region erwähnen, wo die jeweilige Methode angewendet wird. </DE-narr> 
+</top> 
+
+</topics>

@@ -1,0 +1,15 @@
+flake8
+autopep8
+ipython
+sphinx
+
+tqdm
+attrs
+configobj
+
+numpy >= 1.15
+pandas
+tables
+h5py
+
+matplotlib

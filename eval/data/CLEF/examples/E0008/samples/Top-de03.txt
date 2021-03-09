@@ -1,0 +1,21 @@
+
+<top>
+<num> C141 </num>
+<DE-title> Briefbombe für Kiesbauer </DE-title>
+<DE-desc> Finde Informationen über die Explosion einer Briefbombe im Studio der Moderatorin Arabella Kiesbauer beim Fernsehsender PRO7. </DE-desc>
+<DE-narr> Eine Briefbombe von rechtsorientierten Radikalen, die an die farbige Fernsehmoderatorin Arabella Kiesbauer gesandt wurde, explodierte am 9. Juni 1995 in einem Studio des Fernsehsenders PRO7. Eine Assistentin wurde verletzt. Alle Berichte über die Explosion und die polizeilichen Ermittlungen nach der Tat sind relevant. Andere Berichte über Briefbombenattentate sind nicht von Interesse. </DE-narr>
+</top>
+
+<top>
+<num> C142 </num>
+<DE-title> Christo verhüllt den Deutschen Reichstag </DE-title>
+<DE-desc> Finde Berichte über die Verhüllung des Deutschen Reichstages in Berlin durch den Künstler Christo. </DE-desc>
+<DE-narr> Der Verhüllungskünstler Christo benötigte im Juni 1995 zwei Wochen, um den Deutschen Reichstag in Berlin komplett mit Material zu verhüllen. Finde Berichte über dieses Kunstereignis. Jede Information über die Vorbereitung oder die Durchführung ist relevant, einschließlich der politischen Debatten und Entscheidungen sowie der technischen Vorbereitungen. </DE-narr>
+</top>
+
+<top>
+<num> C143 </num>
+<DE-title> Frauenkonferenz in Peking </DE-title>
+<DE-desc> Wegen umstrittener Positionen einiger Delegationen drohte die Frauenkonferenz in Peking zu scheitern. </DE-desc>
+<DE-narr> Relevante Dokumente diskutieren einige der vielen Probleme oder Unstimmigkeiten, die auf der Frauenkonferenz in Peking entstanden. Von besonderem Interesse sind die Positionen, die von Repräsentanten des Vatikans, muslimischer Gemeinschaften und der chinesischen kommunistischen Partei vertreten wurden. </DE-narr>
+</top>

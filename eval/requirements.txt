@@ -1,0 +1,17 @@
+wmd
+tqdm
+nltk
+attrs
+pytest
+gensim
+requests
+tabulate
+# char_split
+beautifulsoup4
+elasticsearch>=6.0.0,<7.0.0
+
+jupyter
+ipython
+ipykernel
+flake8
+autopep8

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics>
+<topic lang="de">
+<identifier>1-DS</identifier>
+<title>Gewalt in der Schule</title>
+<description>Gesucht sind Informationen über Gewalt in Schulen gegen Personen und Sachen</description>
+<narrative>Alle Aktionen und Reaktion bezüglich des Auftretens von Gewalttätigkeiten in Schulen sind von Interesse. Ebenso sind Untersuchungen über die Gründe von Gewalt sowie Programme und Maßnahmen gegen Gewalt relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>2-DS</identifier>
+<title>Kinder und Computerspiele</title>
+<description>Was gibt es über die Nutzung von Computerspielen durch Kinder?</description>
+<narrative>Alle Informationen über die Benutzung und Auswirkung der Nutzung von Computerspielen durch Kinder sind von Interesse. Ebenso sind Untersuchungen über die Gründe von Gewalt sowie Programme und Maßnahmen gegen Gewalt relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>5-DS</identifier>
+<title>Umwelterziehung</title>
+<description>Welche Maßnahmen der Umwelterziehung gibt es?</description>
+<narrative>Die Ergebnisse von Programmen zur Umwelterziehung sind ebenfalls relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>6-DS</identifier>
+<title>Öffnungsklauseln in Tarifverträgen</title>
+<description>Welche Informationen gibt es über die Einführung von Öffnungsklauseln in Tarifverträgen?</description>
+<narrative>Alle Informationen über Öffnungsklauseln in Tarifverträgen, die abweichende betriebliche Regelungen von Tarifvertragsinhalten zulassen, sind von Interesse. Ebenso sind Berichte über die Nutzung solcher Klauseln und die Erfahrungen mit ihrer Anwendung relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>7-DS</identifier>
+<title>Wirtschaftliche Entwicklung in den neuen Bundesländern</title>
+<description>Welche Informationen gibt es über die wirtschaftliche Entwicklung der deutschen Neuen Bundesländer?</description>
+<narrative>Alle Informationen über wirtschaftliche Entwicklung der Neuen Bundesländer in Deutschland sind von Interesse. Was sind die spezifischen ökonomischen Probleme dieser Region (der früheren DDR)? Welche Unterschiede gibt es zur wirtschaftlichen Entwicklung Gesamtdeutschlands?</narrative>
+</topic>
+<topic lang="de">
+<identifier>8-DS</identifier>
+<title>Auswirkung des IuK-Einsatzes auf den Arbeitsmarkt</title>
+<description>Welche Informationen gibt es über die Auswirkung des Einsatzes von IuK-Technologien auf den Arbeitsmarkt?</description>
+<narrative>Alle Informationen über die Auswirkung der Nutzung von Computern und IuK-Technologien auf den Arbeitsmarkt sind von Interesse. Ebenso sind Informationen über die Wirkung auf die Arbeitslosenquote und den Wandel der Qualifikationsanforderungen relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>9-DS</identifier>
+<title>Strafverschärfung bei Gewalttaten</title>
+<description>Welche Informationen und Diskussionen gibt es über die Strafverschärfung bei Gewalttaten?</description>
+<narrative>Alle Aspekte, die für oder gegen Strafverschärfung in solchen Fällen sprechen, sind von Interesse. Untersuchungen über die Wirkung von solchen Maßnahmen sind ebenfalls wichtig.</narrative>
+</topic>
+<topic lang="de">
+<identifier>10-DS</identifier>
+<title>Verkürzung der Schulzeit für Abiturienten</title>
+<description>Wie wird die Verkürzung der Schulzeit für Abiturienten diskutiert?</description>
+<narrative>Alle Informationen und Diskussionen über die Verkürzung der Schulzeit sind von Interesse. Wichtige Aspekte sind die Dauer des Lebensabschnitts bis zur Berufstätigkeit, die Überfrachtung mit Lernstoff, die straffere Organisation des Lehrplans.</narrative>
+</topic>
+<topic lang="de">
+<identifier>11-DS</identifier>
+<title>Multikulturelle Gesellschaft</title>
+<description>Welche Diskussionen und Berichte gibt es über die Entwicklung einer multikulturellen Gesellschaft?</description>
+<narrative>Alle Informationen über die Entwicklung einer multikulturellen Gesellschaft, ihre Probleme und Hindernisse sind von Bedeutung.</narrative>
+</topic>
+<topic lang="de">
+<identifier>12-DS</identifier>
+<title>Straftaten von Fans bei Fußballspielen</title>
+<description>Welche Informationen gibt es über Gewalttaten durch Fußballfans oder Hooligans?</description>
+<narrative>Alle Informationen über Gewalttaten von Fußballfans oder Hooligans sind von Interesse. Untersuchungen über Gegenmaßnahmen gegen diese Gewalttaten und die Hooligans sind auch relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>13-DS</identifier>
+<title>Pendlerverhalten in Ballungsräumen</title>
+<description>Welche Informationen gibt es zum Verhalten von Pendlern in Ballungsräumen?</description>
+<narrative>Alle Informationen über das Verhalten von Pendlern sind von Interesse. Alle Untersuchungen und Diskussionen zur Verkehrsplanung, die auf dem Pendlerverhalten beruhen sind ebenfalls relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>14-DS</identifier>
+<title>Regierungsumzug nach Berlin</title>
+<description>Welche Berichte und Diskussionen gibt es über den Regierungsumzug nach Berlin?</description>
+<narrative>Alle Aspekte des Umzugs der deutschen Regierung nach Berlin sind von Interesse, insbesondere finanzielle und organisatorische Aspekte.</narrative>
+</topic>
+<topic lang="de">
+<identifier>15-DS</identifier>
+<title>Anzahl der Sozialhilfeempfänger</title>
+<description>Wie viele Menschen beziehen Sozialhilfe?</description>
+<narrative>Alle Statistiken über den Bezug von Sozialhilfe sind von Interesse. Allgemeine Diskussionen über Wohlfahrt und Sozialhilfe sind nicht relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>16-DS</identifier>
+<title>Probleme unvollständiger Familien</title>
+<description>Welche Probleme haben unvollständige Familien?</description>
+<narrative>Alle Informationen über die Probleme von Familien mit nur einem Elternteil sind von Interesse. Untersuchungen über die Situation unvollständiger Familien sind auch relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>17-DS</identifier>
+<title>Mitgliedschaft in Sportvereinen</title>
+<description>Welche Informationen gibt es über die Mitgliedschaft in Sportvereinen?</description>
+<narrative>Alle Informationen über Gründe für eine Mitgliedschaft in Sportvereinen sowie die Anzahl von Vereinen und Mitgliedern sind von Interesse. Ebenso sind Untersuchungen über die organisatorische und soziale Struktur der Vereine und ihre sozialen Aktivitäten relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>18-DS</identifier>
+<title>Analyse der deutschen Wahlen von 1994</title>
+<description>Welche Untersuchungen gibt es über die Wahlergebnisse 1994 in Deutschland?</description>
+<narrative>Alle Informationen über die Wahlforschung zum Wahljahr 1994 sind von Interesse. Die Ergebnisse aller nationalen und regionalen Wahlen in Deutschland sind relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>19-DS</identifier>
+<title>Obdachlosigkeit in Städten</title>
+<description>Welchen Umfang hat die Obdachlosigkeit in Städten?</description>
+<narrative>Statistiken und Untersuchungen über die Obdachlosigkeit in Städten sind gesucht. Diskussionen über die Gründe der Obdachlosigkeit sowie Maßnahmen gegen sie sind ebenfalls relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>20-DS</identifier>
+<title>Berufliche Diskriminierung von Frauen</title>
+<description>Welche Informationen gibt es über die Diskriminierung von Frauen im Arbeitsleben?</description>
+<narrative>Alle Informationen und Untersuchungen über die berufliche Diskriminierung von Frauen sind relevant.</narrative>
+</topic>
+<topic lang="de">
+<identifier>21-DS</identifier>
+<title>Europäische Forschungspolitik</title>
+<description>Welche Informationen gibt es über europäische Forschungspolitik?</description>
+<narrative>Alle Informationen über die europäische Forschungspolitik sind von Interesse.</narrative>
+</topic>
+<topic lang="de">
+<identifier>22-DS</identifier>
+<title>Gewaltmonopol des Staates</title>
+<description>Welche Diskussionen gibt es über die Nutzung des Gewaltmonopols des Staates?</description>
+<narrative>Alle Untersuchungen und Diskussionen über das Gewaltmonopol des Staates gegenüber seinen Bürgern sind relevant. Die generelle Debatte ist von Interesse, nicht einzelne Übergriffe von Vertretern der Staatsmacht.</narrative>
+</topic>
+<topic lang="de">
+<identifier>23-DS</identifier>
+<title>Gruppenarbeit in der Industrie</title>
+<description>Welche Informationen gibt es über die Gruppenarbeit in der Industrie?</description>
+<narrative>Untersuchungen und Diskussionen über die Einführung von Gruppenarbeit in der industriellen Produktion sind relevant. Insbesondere die Auswirkungen auf die Organisation des Arbeitsablaufs, auf das Fabrikmanagement und auf die Mitbestimmung der Arbeiter sind von Interesse.</narrative>
+</topic>
+<topic lang="de">
+<identifier>24-DS</identifier>
+<title>Konsumentenverhalten</title>
+<description>Welche Informationen gibt es über das Verhalten von Konsumenten?</description>
+<narrative>Alle Informationen über das Käuferverhalten sind von Interesse.</narrative>
+</topic>
+<topic lang="de">
+<identifier>25-DS</identifier>
+<title>Agraraußenhandel Deutschland</title>
+<description>Welche Informationen gibt es über den deutschen Außenhandel mit Agrarprodukten?</description>
+<narrative>Statistiken und generelle Übersichten zum Agraraußenhandel Deutschlands sind gesucht.</narrative>
+</topic>
+</topics>

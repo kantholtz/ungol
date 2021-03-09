@@ -1,0 +1,362 @@
+CLEF 2003 | Registered Participants | Guidelines
+Guidelines for Participation in CLEF 2003 
+
+
+CLEF 2003 consists of 6 tracks:
+
+1. Multilingual Information Retrieval 
+2. Bilingual Information Retrieval 
+3. Monolingual (non-English) Information Retrieval 
+4. Mono- and Cross-Language Information Retrieval for Scientific Collections 
+5. Interactive Cross-Language Information Retrieval (iCLEF) 
+6. Multiple Language Question Answering (QA at CLEF) 
+
+plus 2 Pilot Experiments 
+
+7. Cross-Language Retrieval in Image Collections (Image CLEF) 
+8. Cross-Language Spoken Document Retrieval (CL-SDR) 
+
+In these Guidelines, we provide full information on the CLEF 2003 test 
+collections, the tasks, data manipulation, query construction and results 
+submission for the first 4 tracks. Additional details for iCLEF, QAatCLEF, Image 
+CLEF and CL-SDR can be found on the dedicated webpages for these tracks. 
+
+MAIN TEST COLLECTION 
+
+The main document collection in CLEF 2003 has comparable documents for national 
+newspapers and newswires in 9 languages: Dutch, English, Finnish, French, 
+German, Italian, Russian, Spanish, Swedish. It has been enlarged with respect to 
+the CLEF 2002 collection with a new language (Russian - now being processed) and 
+additional data. The time span now covered is 1994-95.
+
+The main topic set consists of 60 topics and has been prepared in: Dutch, 
+English, Finnish, French, German, Italian, Russian, Spanish, Swedish  (main 
+languages) and Chinese, Japanese, Portuguese (additional topic languages) - 
+others may be added. 
+
+This test collection (documents and topics) is used for the main monolingual, 
+bilingual and mutlilingual tasks. 
+
+The original topic set is prepared in EN, ES, FI, FR, DE, IT, NL, SV on the 
+basis of the contents of the collections and consists of a selection of topics 
+of local (i.e. national), European, and general interest. This means that the 
+number of relevant documents in any one collection can vary considerably, 
+depending on the topic; in some cases, for a particular topic, there may be no 
+relevant documents in a given collection. Topics in other European languages are 
+translated from the original topics by independent translators (i.e. not 
+belonging to participating groups). Japanese and Chinese topics are also 
+prepared; the aim is to encourage the participation of Asian groups interested 
+in European languages and vice versa. 
+
+Topics are released using the correct diacritics (according to the language) but 
+may contain occasional spelling errors/inconsistencies, minor formatting 
+deficiencies. We aim to keep these at a minimum. 
+
+Since the documents for the CLEF experiments come from well-known high-quality 
+sources, they should have a very small error-rate with respect to accents. 
+However, participants should still be prepared for accent mismatches. This 
+constitutes a real-world problem. Note that accents may be transcribed if this 
+is common practice in the area of origin of the documents. In particular, the 
+accents in one of the Italian collections (La Stampa) are indicated by a 
+following apostrophe (') as a final character whereas in the other (SDA) the 
+correct accented chracters are used. The English topics are mainly written in 
+British English, however, the English documents are from both the  US and the 
+UK; there can thus be lexical and orthographic mismatches. The German collection 
+also contains documents in German using Swiss-specific vocabulary. Systems must 
+be sufficiently robust to cater for such features (very common in real world 
+situations).
+
+SCIENTIFIC TEST COLLECTIONS 
+
+CLEF 2003 also has a test collection of scientific documents: 
+
+GIRT4  - a new GIRT collection of approx. 150,000 German social science 
+documents - available as two parallel corpora which contain the same documents 
+in German and English. Controlled vocabularies in German-English and German-Russian 
+are also provided. 
+
+25 topics are prepared in English, German and Russian for the GIRT task. 
+
+
+TASKS
+
+The goals of the tasks are as follows: 
+
+1. Multilingual: There are two distinct multilingual tasks: 
+
+"Small-multilingual" (Multilingual-4): 
+
+Selecting a topic set in any language, retrieve relevant documents from the 
+multilingual collection of English, French, German, and Spanish newswires and 
+newspapers for 1994 and 1995 and submit the results in a single merged and 
+ranked list.               
+
+"Large-multilingual" (Multilingual-8) 
+
+Selecting a topic set in any language, retrieve relevant documents from the 
+multilingual collection of Dutch, English, Finnish, French, German, Italian, 
+Spanish and Swedish newswires and newspapers and submit the results in a single 
+merged and ranked list. 
+
+2. Bilingual: There are four specific source -> target bilingual tasks in CLEF 
+2003 on the main test collection:  
+
+Italian -> Spanish ; German -> Italian ; French -> Dutch ; Finnish -> German 
+
+In addition, we offer X -> Russian, and (only for groups that have not 
+previously participated in a CLEF cross-language task) x -> English. The aim is 
+to retrieve relevant documents from the chosen target collection and submit the 
+results in a ranked list.  
+
+3. Monolingual (non-English): Query the Dutch, Finnish, French, German, Italian, 
+Russian, Spanish and Swedish collections using topics in the same language and 
+submit results in a ranked list.  
+
+4. GIRT: Query the GIRT4 collection: 
+
+1)       as a monolingual task: 
+
+a.        German topics against the German data GIRT4-DE 
+
+b.       English topics against the English data GIRT4-EN 
+
+2)       as a bilingual task: 
+
+a.        English or Russian topics against the German data GIRT4-DE 
+
+b.       German or Russian topics against the English data GIRT4-EN 
+
+All further information on the design of the GIRT task will be available here. 
+After delivering the results you will receive a concordance list of the document 
+numbers of GIRT4-DE and GIRT4-EN which identifies identical documents. Thus, you 
+will be able to test differences in the results for the different language 
+corpora. 
+
+5. Interactive: All information on the organisation of this track can be found 
+on the iCLEF Web site. 
+
+6. Multiple Language Question Answering: All information on the organisation of 
+this track can be found on the QA at CLEF Website. 
+
+7. Cross-Language Retrieval in Image Collections: All information on the 
+organisation of this track can be found on the Image CLEF Website (to be set up 
+shortly). 
+
+8. Cross-Language Spoken Document Retrieval: All information on the organisation 
+of this track can be found on the  CL-SDR Website. 
+
+
+Much of the evaluation methodology adopted for the first 4 tracks in CLEF is an 
+adaptation of the strategy studied for the TREC ad-hoc task. The instructions 
+given below have been derived from those distributed by TREC. We hope that they 
+are clear and comprehensive. However, please do not hesitate to ask for 
+clarifications or further information if you need it. Send queries to 
+carol@iei.pi.cnr.it.
+
+ 
+CONSTRUCTING AND MANIPULATING THE SYSTEM DATA STRUCTURES 
+
+The system data structures are defined to consist of the original documents, any 
+new structures built automatically from the documents (such as inverted files, 
+thesauri, conceptual networks, etc.), and any new structures built manually from 
+the documents (such as thesauri, synonym lists, knowledge bases, rules, etc.). 
+
+1. The system data structures may not be modified in response to CLEF 2003 
+topics. For example, you cannot add topic words that are not in your dictionary. 
+The CLEF tasks represent the real-world problem of an ordinary user posing a 
+question to a system. In the case of the cross-language tasks, the question is 
+posed in one language and relevant documents must be retrieved whatever the 
+language in which they have been written. If an ordinary user could not make the 
+change to the system, you should not make it after receiving the topics. 
+2. There are several parts of the CLEF data collections that contain manually-assigned, 
+controlled or uncontrolled index terms. These fields are delimited by SGML tags. 
+Since the primary focus of CLEF is on retrieval of naturally occurring text over 
+language boundaries, these manually-indexed terms should not be indiscriminately 
+used as if they are a normal part of the text. If your group decides to use 
+these terms, they should be part of a specific experiment that utilizes manual 
+indexing terms, and these runs should be declared as manual runs. For GIRT4 all 
+fields are allowed for automatic runs. 
+3. Only the following fields may be used for automatic retrieval: 
+Frankfurter Rundschau: TEXT, TITLE only 
+Der Spiegel: TEXT, LEAD, TITLE only 
+La Stampa: TEXT, TITLE only 
+Le Monde: TEXT, LEAD1, TITLE only 
+LA TIMES: HEADLINE, TEXT only 
+Glasgow Herald: HEADLINE, TEXT only 
+NRC Handelsblad: P only (or alternatively TI, LE, TE, OS only) 
+Algemeen Dagblad: P only (or alternatively TI, LE, TE, OS only) 
+EFE 94 and 95: TITLE, TEXT only 
+German/French/Italian SDA 94 and 95: TX, LD, TI, ST only 
+Aamulehti: TEXT only 
+TT - Tidningarnas Telegrambyrå: BRODTEXT, HEADLINE, MELLIS, INGRESS, RUBRIK
+(And of course the tags contained therein. Most of these contain one or more <P> 
+tags. Note however,
+that <P> tags can also occur elsewhere in the document. You cannot blindly index 
+all <P> tags.) 
+Izvestia: TEXT, TITLE only
+GIRT: GIRT4-DE: all fields; GIRT4-EN: all fields. 
+
+Learning from (e.g. building translation sources from) such fields is 
+permissible. 
+
+
+GUIDELINES FOR CONSTRUCTING THE QUERIES 
+
+The queries are constructed from the topics. Each topic consists of three 
+fields: a brief title statement; a one-sentence description; a more complex 
+narrative specifying the relevance assessment criteria. Queries can consist of 1 
+or more of these fields. 
+
+There are many possible methods for converting the supplied topics into queries 
+that your system can execute. We have broadly defined two generic methods, 
+"automatic" and "manual", based on whether manual intervention is used or not. 
+When more than one set of results are submitted, the different sets may 
+correspond to different query construction methods, or if desired, can be 
+variants within the same method. 
+
+The manual query construction method includes BOTH runs in which the queries are 
+constructed manually and then run without looking at the results AND runs in 
+which the results are used to alter the queries using some manual operation. The 
+distinction is being made here between runs in which there is no human 
+involvement (automatic query construction) and runs in which there is some type 
+of human involvement (manual query construction). It is clear that manual runs 
+should be appropriately motivated in a CLIR context, e.g. a run where a 
+proficient human simply translates the topic into the document language(s) is 
+not what most people think of as cross-language retrieval.
+
+To further clarify this, here are some example query construction methodologies, 
+and their correct query construction classification. Note that these are only 
+examples; many other methods may be used for automatic or manual query 
+construction. 
+
+1. queries constructed automatically from the topics, the retrieval results of 
+these queries sent to the CLEF results server --> automatic query construction 
+2. queries constructed automatically from the topics, then expanded by a method 
+that takes terms automatically from the top 30 documents (no human involved) --> 
+automatic query construction 
+3. queries constructed manually from the topics, results of these queries sent 
+to the CLEF results server --> manual query construction 
+4. queries constructed automatically from the topics, then modified by human 
+selection of terms suggested from the top 30 documents --> manual query 
+construction 
+
+Note that by including all types of human-involved runs in the manual query 
+construction method we make it harder to do comparisons of work within this 
+query construction method. Therefore groups are strongly encouraged to determine 
+what constitutes a base run for their experiments and to do these runs 
+(officially or unofficially) to allow useful interpretations of the results. For 
+those of you who are new to CLEF, unofficial runs are those not turned into CLEF 
+but evaluated using the trec_eval package available from Cornell University. 
+(See previous years' CLEF papers for examples of use of base runs.) 
+
+WHAT TO DO WITH YOUR RESULTS 
+
+Your results must be sent to the CLEF results server (address to be 
+communicated).
+Results have to be submitted in ASCII format, with one line per document 
+retrieved.
+The lines have to be formatted as follows: 
+10 Q0 document.00072 0 0.017416 runidex1 
+1 2 3 4 5 6 
+  The fields must be separated by ONE blank and have the following meanings: 
+
+1) Query number (eliminate any identifying letters). Please only use SIMPLE 
+numbers ("1", not "001")
+INPUT MUST BE SORTED NUMERICALLY BY QUERY NUMBER. 
+
+2) Query iteration (will be ignored. Please choose "Q0" for all experiments). 
+
+3) Document number (content of the <DOCNO> tag.). 
+
+4) Rank 0..n (0 is best matching document. If you retrieve 1000 documents per 
+query, rank will be 0..999, with 0 best and 999 worst). Note that rank starts at 
+0 (zero) and not 1 (one).
+MUST BE SORTED IN INCREASING ORDER PER QUERY. 
+
+5) RSV value (system specific value that expresses how relevant your system 
+deems a document to be. This is a floating point value. High relevance should be 
+expressed with a high value). If a document D1 is considered more relevant than 
+a document D2, this must be reflected in the fact that RSV1 > RSV2. If RSV1 = 
+RSV2, the documents may be randomly reordered during calculation of the 
+evaluation measures. Please use a decimal point ".", not a comma. Do not use any 
+form of separators for thousands. The only legal characters for the RSV values 
+are 0-9 and the decimal point.
+MUST BE SORTED IN DECREASING ORDER PER QUERY. 
+
+6) Run identifier (please chose an unique ID for each experiment you submit). 
+Only use a-z, A-Z and 0-9. No special characters, accents, etc.
+The fields are separated by a single space.
+The file contains nothing but lines formatted in the way described above.
+You are expected to retrieve 1000 documents per query. An experiment that 
+retrieves a maximum of 1000 documents each for 20 queries therefore produces a 
+file that contains a maximum of 20000 lines.  
+
+You should know that the effectiveness measures used in CLEF evaluate the 
+performance of systems at various points of recall. Participants must thus 
+return at most 1000 documents per query in their results. Please note that by 
+its nature, the average precision measure does not penalize systems that return 
+extra irrelevant documents at the bottom of their result lists. Therefore, you 
+will usually want to use the maximum number of allowable documents in your 
+official submissions. If you knowingly retrieved less than 1000 documents for a 
+topic, please state so in the README file you send with the run. 
+
+A README file for every run submitted must be sent to the result submission 
+site. E-mail address and format for this file will be communicated.
+You must accompany your results by a text file which, for each run, clearly 
+states the run identifier, the type of run (e.g. multi-4: NL -> EN, FR, DE, ES; 
+multi-8: ES -> DE, EN, ES, FI, FR, IT, NL, SV; bilingual: DE -> IT, NL -> FR, or 
+monolingual, etc?.), and the approach used (e.g. fully automatic, manually 
+constructed queries, etc?). 
+
+N.B. Please read the following very carefully 
+
+Multilingual: We will accept a maximum of 5 runs per task for the 2 multilingual 
+tasks (a maximum of 10 runs total if you do both multilingual tasks) but you 
+must specify run priority.
+
+Bilingual: We accept up to a maximum of 10 runs for the bilingual task but these 
+includes ALL language combinations. It is not 10 runs DE -> IT, and 10 more NL -> 
+FR,  it is 10 runs total. 
+
+Monolingual: We will also accept a maximum of 16 runs for the monolingual task 
+(there are eight languages to choose from).  
+
+As an additional side constraint, we will not allow more than 4 runs for any one 
+language combination. We do not want 10 runs FR monolingual, or 10 runs DE -> IT 
+. We want to encourage diversity. 
+
+Participants can submit a maximum of 30 runs multilingual, bilingual and 
+monolingual tasks. 
+
+GIRT: We will accept a maximum of 5 runs for GIRT task 1 (monolingual) and a 
+maximum of 10 runs for GIRT task 2 (cross-language). 
+
+This means that a participating group doing all tasks can submit a maximum of 45 
+runs. But only if this group submits a maximum number of runs for each of the 
+individual tasks and their respective language combinations. Typically,
+the maximum number will be lower, due to the choice of tasks by each group. 
+
+In order to facilitate comparison between results, there must be a mandatory 
+run: Title + Description (per experiment, per topic language). 
+
+The absolute deadline for submission of results is midnight, Thursday May 15. 
+
+An input checker program, used by TREC and modified to meet the requirements of 
+CLEF, will be made available to participants. 
+
+WORKING NOTES 
+
+A clear description of the strategy adopted and the resources you used for each 
+run MUST be given in your paper for the Working Notes. The deadline for receipt 
+of these papers is 20 July 2003. The Working Notes will be distributed to all 
+participants on registration at the Trondheim Workshop (21-22 August 2003). This 
+information is considered of great importance; the point of the CLEF activity is 
+to give participants the opportunity to compare system performance with respect 
+to variations in approaches and resources. Groups that do not provide such 
+information risk being excluded from future CLEF experiments. 
+
+
+
+------------------------------------------------------------------------
+
+Current update is 31 March 2003. 

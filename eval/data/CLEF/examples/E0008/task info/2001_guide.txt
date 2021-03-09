@@ -1,0 +1,257 @@
+Guidelines for Participation in CLEF 2001 
+
+Guidelines for Participation in the Cross Language Evaluation Forum: CLEF 2001 
+
+CLEF 2001 consists of 4 tasks:
+
+1. Multilingual Information Retrieval 
+2. Bilingual Information Retrieval 
+3. Monolingual (non-English) Information Retrieval 
+4. Domain-Specific Information Retrieval (GIRT) 
+An experimental track on interactive cross-language system evaluation is also 
+being organized with separate guidelines. Please contact Doug Oard (oard@glue.umd.edu) 
+or Julio Gonzalo (julio@lsi.uned.es) to join this task. 
+
+CLEF 2001 has comparable document collections for national newspapers in 6 
+languages: Dutch, English, French, German, Italian, Spanish.
+
+The main topic set consists of 50 topics and is prepared in: English, French, 
+German, Italian, Spanish, Dutch, Japanese (main languages) and Swedish, Finnish 
+and Chinese (additional topic languages).
+
+The original topic set is prepared in EN, ES, FR, DE, IT, NL on the basis of the 
+contents of the collections and consists of a selection of topics of local (i.e. 
+national), European, and general interest. This means that the number of 
+relevant documents in any one collection can vary considerably, depending on the 
+topic; in some cases, for a particular topic, there may be no relevant documents 
+in a given collection. Japanese topics have also been prepared; the aim is to 
+encourage the participation of Asian groups interested in European languages and 
+vice versa.
+
+Topics in other languages are translated from the original topics by independent 
+translators (i.e. not belonging to participating groups). 
+
+Topics are released using the correct diacritics (according to the language). 
+
+Since the documents for this year?s CLEF experiments come from well-known high-quality 
+sources, they should have a very small error-rate with respect to accents. 
+However, participants should still be prepared for accent mismatches. This 
+constitutes a real-world problem. Note that accents may be transcribed if this 
+is common practice in the area of origin of the documents. In particular, the 
+accents in one of the Italian collections (La Stampa) are indicated by a 
+following apostrophe (') as a final character whereas in the other (SDA) the 
+correct accented chracters are used. The English topics are generally written in 
+British English, however, the English documents are from the US; there can thus 
+be a lexical and orthographic mismatch. Systems must be sufficiently robust to 
+cater for such features (very common in real world situations).
+
+25 topics are prepared in English, German and Russian for the GIRT task. 
+
+The goals of the tasks are as follows: 
+
+1. Multilingual: Selecting a topic set in any language, retrieve relevant 
+documents from the multilingual collection of English, French, German, Italian 
+and Spanish newswires and newspapers and submit the results in a single merged 
+and ranked list. 
+2. Bilingual: There are two bilingual tasks in CLEF 2001: 
+X => English collection 
+X => Dutch collection 
+Selecting any topic language with the exception of the target collection 
+language, retrieve relevant documents from the chosen target collection and 
+submit the results in a ranked list. 
+3. Monolingual (non-English): Query the Dutch, French, German, Italian or 
+Spanish collections using topics in the same language and submit results in a 
+ranked list. 
+4. GIRT: Query the GIRT collection (German social science data which also 
+provides additional translations of the document titles into English): 
+a. as a monolingual task ? German topics against German GIRT data; 
+b. as a bilingual task ? English or Russian topics against German GIRT data. 
+
+In the case of b) other topic languages can be used if an independent 
+translation of the topic language is provided. In particular, if English is used, 
+an English-German thesaurus is available. If Russian is used, a German-Russian 
+translation table is available. Another variation of this task could be to 
+include the indexing terms from the "controlled-term" and "free-term" fields in 
+the retrieval process; this must be indicated. General information on the domain-specific 
+task and the GIRT data is given in an article by Gey and Kluck. Additional 
+information on the GIRT task data structure and thesaurus is available here. For 
+any questions on the GIRT task contact Michael Kluck (kluck@bonn.iz-soz.de). 
+
+The evaluation methodology adopted for CLEF is an adaptation of the strategy 
+studied for the TREC ad-hoc task. The instructions given below have been derived 
+from those distributed by TREC. We hope that they are clear and comprehensive. 
+However, please do not hesitate to ask for clarifications or further information 
+if you need it. Send queries to carol@iei.pi.cnr.it.
+
+
+
+CONSTRUCTING AND MANIPULATING THE SYSTEM DATA STRUCTURES
+
+The system data structures are defined to consist of the original documents, any 
+new structures built automatically from the documents (such as inverted files, 
+thesauri, conceptual networks, etc.), and any new structures built manually from 
+the documents (such as thesauri, synonym lists, knowledge bases, rules, etc.). 
+
+1. The system data structures may not be modified in response to CLEF 2001 
+topics. For example, you cannot add topic words that are not in your dictionary. 
+The CLEF tasks represent the real-world problem of an ordinary user posing a 
+question to a system. In the case of the cross-language tasks, the question is 
+posed in one language and relevant documents must be retrieved whatever the 
+language in which they have been written. If an ordinary user could not make the 
+change to the system, you should not make it after receiving the topics. 
+2. There are several parts of the CLEF data collections that contain manually-assigned, 
+controlled or uncontrolled index terms. These fields are delimited by SGML tags. 
+Since the primary focus of CLEF is on retrieval of naturally occurring text over 
+language boundaries, these manually-indexed terms should not be indiscriminately 
+used as if they are a normal part of the text. If your group decides to use 
+these terms, they should be part of a specific experiment that utilizes manual 
+indexing terms, and these runs should be declared as manual runs. 
+3. Only the following fields may be used for automatic retrieval: 
+Frankfurter Rundschau: TEXT, TITLE only 
+Der Spiegel: TEXT, LEAD, TITLE only 
+La Stampa: TEXT, TITLE only 
+Le Monde: TEXT, LEAD1, TITLE only 
+LA TIMES: HEADLINE, TEXT only 
+NRC Handelsblad: P only (or alternatively TI, LE, TE, OS only) 
+Algemeen Dagblad: P only (or alternatively TI, LE, TE, OS only) 
+EFE: TITLE, TEXT only 
+German/French/Italian SDA: TX, LD, TI, ST only 
+GIRT: TEXT, TITLE only 
+
+
+GUIDELINES FOR CONSTRUCTING THE QUERIES 
+
+The queries are constructed from the topics. Each topic consists of three fields: 
+a brief title statement; a one-sentence description; a more complex narrative 
+specifying the relevance assessment criteria. Queries can consist of 1 or more 
+of these fields. 
+
+There are many possible methods for converting the supplied topics into queries 
+that your system can execute. We have broadly defined two generic methods, "automatic" 
+and "manual", based on whether manual intervention is used or not. When more 
+than one set of results are submitted, the different sets may correspond to 
+different query construction methods, or if desired, can be variants within the 
+same method. 
+
+The manual query construction method includes BOTH runs in which the queries are 
+constructed manually and then run without looking at the results AND runs in 
+which the results are used to alter the queries using some manual operation. The 
+distinction is being made here between runs in which there is no human 
+involvement (automatic query construction) and runs in which there is some type 
+of human involvement (manual query construction). It is clear that manual runs 
+should be appropriately motivated in a CLIR context, e.g. a run where a 
+proficient human simply translates the topic into the document language(s) is 
+not what most people think of as cross-language retrieval.
+
+To further clarify this, here are some example query construction methodologies, 
+and their correct query construction classification. Note that these are only 
+examples; many other methods may be used for automatic or manual query 
+construction. 
+
+1. queries constructed automatically from the topics, the retrieval results of 
+these queries sent to the CLEF results server --> automatic query construction 
+2. queries constructed automatically from the topics, then expanded by a method 
+that takes terms automatically from the top 30 documents (no human involved) --> 
+automatic query construction 
+3. queries constructed manually from the topics, results of these queries sent 
+to the CLEF results server --> manual query construction 
+4. queries constructed automatically from the topics, then modified by human 
+selection of terms suggested from the top 30 documents --> manual query 
+construction 
+
+Note that by including all types of human-involved runs in the manual query 
+construction method we make it harder to do comparisons of work within this 
+query construction method. Therefore groups are strongly encouraged to determine 
+what constitutes a base run for their experiments and to do these runs (officially 
+or unofficially) to allow useful interpretations of the results. For those of 
+you who are new to CLEF, unofficial runs are those not turned into CLEF but 
+evaluated using the trec_eval package available from Cornell University. (See 
+last year's CLEF papers for examples of use of base runs.) 
+
+
+WHAT TO DO WITH YOUR RESULTS
+
+Your results must be sent to the CLEF results server (address to be communicated). 
+Results have to be submitted in ASCII format, with one line per document 
+retrieved. 
+The lines have to be formatted as follows:
+10 Q0 document.00072 0 0.017416 runidex1
+1  2  3              4 5        6 
+
+
+The fields must be separated by ONE blank and have the following meanings:
+
+
+
+1) Query number (eliminate any identifying letters). Please only use SIMPLE 
+numbers ("1", not "001") 
+INPUT MUST BE SORTED NUMERICALLY BY QUERY NUMBER.
+
+2) Query iteration (will be ignored. Please choose "Q0" for all experiments).
+
+3) Document number (content of the <DOCNO> tag.).
+
+4) Rank 0..n (0 is best matching document. If you retrieve 1000 documents per 
+query, rank will be 0..999, with 0 best and 999 worst). Note that rank starts at 
+0 (zero) and not 1 (one).
+MUST BE SORTED IN INCREASING ORDER PER QUERY.
+
+5) RSV value (system specific value that expresses how relevant your system 
+deems a document to be. This is a floating point value. High relevance should be 
+expressed with a high value). If a document D1 is considered more relevant than 
+a document D2, this must be reflected in the fact that RSV1 > RSV2. If RSV1 = 
+RSV2, the documents may be randomly reordered during calculation of the 
+evaluation measures. Please use a decimal point ".", not a comma. Do not use any 
+form of separators for thousands. The only legal characters for the RSV values 
+are 0-9 and the decimal point. 
+MUST BE SORTED IN DECREASING ORDER PER QUERY.
+
+6) Run identifier (please chose an unique ID for each experiment you submit). 
+Only use a-z, A-Z and 0-9. No special characters, accents, etc. 
+The fields are separated by a single space. 
+The file contains nothing but lines formatted in the way described above. 
+An experiment that retrieves a maximum of 1000 documents each for 20 queries 
+therefore produces a file that contains a maximum of 20000 lines. If you 
+knowingly retrieved less than 1000 documents for a topic, please state so in the 
+README file you sent with the run. 
+A README file for every run submitted must be sent to the result submission site. 
+E-mail address and format for this file will be communicated. 
+You must accompany your results by a text file which, for each run, clearly 
+states the run identifier, the type of run (e.g. multilingual: NL -> EN, FR, DE, 
+ES, IT or bilingual: DE->EN, etc?.), and the approach used (e.g. fully automatic, 
+manually constructed queries, etc?). 
+
+N.B. We will accept a maximum of 4 runs per task for the multilingual, bilingual 
+and GIRT tasks but you must specify run priority. 
+We accept up to 5 monolingual experiments (there are 5 languages to choose from) 
+but no more than 3 runs for any one of these languages and up to a maximum of 10 
+runs in total (specify run priority for each language). This means that a group 
+submitting monolingual experiments for all languages cannot send more than two 
+runs per language on average. 
+In order to facilitate comparison between results, there will be a mandatory run: 
+Title + Description (per experiment, per topic language). 
+
+To give an example, if you are doing the X => EN bilingual task, a possible 4 
+runs could be: FR -> EN; DE - > EN; IT -> EN; ES - > EN; or 4 different 
+experiments with NL -> EN; or 2 different experiments with NL -> EN + 2 
+different experiments with DE -> EN. But NOT 4 different experiments with NL -> 
+EN + 4 different experiments with DE -> EN and so on ... 
+
+The absolute deadline for submission of results is midnight, Sunday June 10, 
+European time. 
+
+You can download the input checker program here. This has been made available by 
+TREC and modified to meet the requirements of CLEF. 
+
+A clear description of the strategy adopted and the resources you used for each 
+run MUST be given in your paper for the Working Notes. The deadline for receipt 
+of these papers is 6 August 2001. The Working Notes will be distributed to all 
+participants on registration at the Darmstadt Workshop (3-4 September 2001). 
+This information is considered of great importance; the point of the CLEF 
+activity is to give participants the opportunity to compare system performance 
+with respect to variations in approaches and resources. Groups that do not 
+provide such information risk being excluded from future CLEF experiments. 
+
+------------------------------------------------------------------------
+
+Current update is 9 April 2001. 
